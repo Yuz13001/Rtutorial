@@ -46,3 +46,6 @@ Lance Zhang, 2019/03/12
 
 现在就让我们从R语言中的数据格式开始，踏上R语言的学习征程吧。
 
+
+
+[Chapter 1: 数据结构](Rtutorial/tut/datastructure-vec.md)
