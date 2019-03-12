@@ -48,4 +48,4 @@ Lance Zhang, 2019/03/12
 
 
 
-[Chapter 1: 数据结构](Rtutorial/tut/datastructure-vec.md)
+[Chapter 1: 数据结构](https://raw.githubusercontent.com/Yuz13001/Rtutorial/tut/datastructure-vec.md)
