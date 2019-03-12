@@ -29,3 +29,10 @@ Lance Zhang, 2019/03/12
 让我们来打开Rstuido，如果安装无误，应该长成这个样子：
 
 ![Rstudio](https://raw.githubusercontent.com/Yuz13001/Rtutorial/master/Pics/Rstudio.png)
+
+如上展示的的Rstudio分为三个区块，左边是Console，大家可以把它理解为计算器，输入一个公式给出一个结果。右上角是Environment，简单来说就是R现在记住了什么数据。右下角是一个多功能区，可以展示图像，和安装的“补丁包”。同学们不妨在Console中输入
+
+```R
+1+1
+```
+
