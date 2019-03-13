@@ -77,7 +77,7 @@ iris[， c(1, 3)]
 iris[, -1]
 ```
 
-**细心的同学可以发现，这些操作和Matrix都是相似的。**除此之外，data frame还有一个独门秘籍：用column名字来select其中某一列。比如，如果想选中iris里的第一列，除了iris[, 1]之外，我们也可以利用这列的名字Sepal.Length​来做文章。
+<u>细心的同学可以发现，这些操作和Matrix都是相似的。</u>除此之外，data frame还有一个独门秘籍：用column名字来select其中某一列。比如，如果想选中iris里的第一列，除了iris[, 1]之外，我们也可以利用这列的名字Sepal.Length​来做文章。
 
 ```R
 iris$Sepal.Length
