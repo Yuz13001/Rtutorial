@@ -9,7 +9,7 @@ R语言中的数据结构
 
 R语言作为一门立足于统计分析的语言，数据结构是核心中的核心。对于初学者来说，掌握数据结构是必备的一项功课。很多bug, error 都是因为对于数据结构掌握不清楚而导致的。在第一章中，我们将着重讲解以下三种数据结构：
 
-- Vector
+- [Vector](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch11vector.md)
 - Matrix
 - Data Frame
 
