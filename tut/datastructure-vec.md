@@ -121,7 +121,15 @@ height[c(-1, -3)]
 
 
 
-Question time:
+
+
+<u>**Question time:**</u>
 
 我们想取height里，第一个到第三个element，应该怎么做？
+
+
+
+
+
+
 
