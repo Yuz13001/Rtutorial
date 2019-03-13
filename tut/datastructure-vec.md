@@ -47,11 +47,11 @@ ex <- c("M", "F", "F", "M")
 height
 
 ex
-
-
 ```
 
 如果一切正常的话，应该会分别输出height和ex中的内容。
+
+
 
 刚刚也提到过，Vector中必须同类型，那么如果我们强迫R新建一个数字和文字混合的vector会如何呢？
 
@@ -68,6 +68,32 @@ mix
 ```
 
 我们可以看到，作为数字的4的周围，也被加了”“，**证明在这个vector里，4被当做了文字**。这再次印证了一个宇宙真理，Vector中的每一个element都需要保持同类型，要么都是数字，要么都是文字。
+
+
+
+### Operations for a vector, Vector的常规操作
+
+对于Vector，除了要记住他是同类型的之外，我们还要学会一个非常基本的操作叫splicing，即切割，按人话说就是选择你想选的element。
+
+切割的方法非常简单，首先输入vector名字，再打一个[]，后面输入element的排序就好了。比如我想找到ex里的第二个element，code就是：
+
+```R
+ex[2]
+```
+
+那么同理，如果想找height的第四个element，就需要：
+
+```R
+height[4]
+```
+
+同时选中多个element也是可以的，只是需要先行打包，比如选中height的第一个和第三个element
+
+```R
+height[c(1， 3)]
+```
+
+
 
 
 
