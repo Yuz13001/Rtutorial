@@ -79,13 +79,28 @@ iris[, -1]
 
 
 
-细心的同学可以发现，这些操作和Matrix都是相似的。除此之外，data frame还有一个独门秘籍：用column名字来select其中某一列。比如，如果想选中iris里的第一列，除了iris[, 1]之外，我们也可以利用这列的名字$Sepal.Length$来做文章。
+**细心的同学可以发现，这些操作和Matrix都是相似的。**除此之外，data frame还有一个独门秘籍：用column名字来select其中某一列。比如，如果想选中iris里的第一列，除了iris[, 1]之外，我们也可以利用这列的名字Sepal.Length​来做文章。
 
 ```R
 iris$Sepal.Length
 ```
 
-这个code的意思就是，选中iris中，Sepal.Length这一列。很多时候这样选择column会更加方便。
+这个code的意思就是，选中iris中，Sepal.Length这一列。很多时候这样选择column会更加方便。聪明的同学也会想到了，既然每列都是vector，那么iris$Sepal.Length的output也就是vector。这也意味着，我们可以把vector的操作，应用在data frame的column上，比如：
+
+```R
+#找到Sepal.Length这一列的第三个
+iris$Sepal.Length[3]
+```
+
+
+
+#### Question Time:
+
+R中自带的mtcars是一个dataframe，请用两种方法，找到他第二行， 第一列的数字。
+
+
+
+
 
 
 
