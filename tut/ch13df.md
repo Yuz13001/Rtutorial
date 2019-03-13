@@ -34,6 +34,12 @@ Output会长成这个样子：
 
 
 
+**Note:**
+
+在实际操作中，同样都是有row有column的数据格式，Data Frame的使用频率远远大于Matrix的原因也是因为这一特性。Matrix是整个数据必须同类型，然而data frame只要求每列同类型。例如iris里，有四列数字，一列文字，这样的格式是matrix做不到的。
+
+
+
 ### Operations for a data frame, data frame的常规操作
 
 对于data frame自然也有splicing的方法。之前的vector里，因为是一列数，所以只需要知道排第几个就好了。在data frame里，因为有行有列，所以就需要定义行number和列number(这里方法和matrix一样)。公式如下
