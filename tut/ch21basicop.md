@@ -78,7 +78,7 @@ max(height)
 
 这些function的名字相对都比较好记，只要多用几次，就能迅速掌握。如果大家对这些function感觉，太多不好记，这里教大家一个无敌function：summary()
 
-```R
+```
 summary(height)
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     150     160     170     170     180     190 
@@ -88,7 +88,7 @@ summary(height)
 
 学习完上一章之后，我们知道了一个重要的概念，**dataframe中每一列都是一个vector，所以所有对于vector的操作，data frame中的某一列也都可以完成。比如：**
 
-```R
+```
 mean(iris$Sepal.Length)
 [1] 5.843333
 
