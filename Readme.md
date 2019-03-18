@@ -53,3 +53,15 @@ Lance Zhang, 2019/03/12
 - [Chapter 1: 数据结构](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch1structure.md)
 
 - [Chapter 2: 基本操作](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch2structure.md)
+
+
+
+
+
+
+
+------
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+
+本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。
