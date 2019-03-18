@@ -1,8 +1,6 @@
 R语言新手教程
 ================
-![](https://img.shields.io/badge/language-R-blue.svg)
-
-![](https://img.shields.io/badge/license-MIT-000000.svg)
+![](https://img.shields.io/badge/language-R-blue.svg)![](https://img.shields.io/badge/license-MIT-000000.svg)
 
 Lance Zhang, 2019/03/12
 
