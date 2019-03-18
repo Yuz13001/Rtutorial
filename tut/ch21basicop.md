@@ -33,6 +33,10 @@ str(name)
 
 
 
+
+
+
+
 #### 对于数字类型的Vector
 
 在开始之前，让我们来新建一个叫做height的vector，其中填入从150到190的自然数。
@@ -98,6 +102,10 @@ summary(iris$Sepal.Length)
 ```
 
 这样我们就能快速了解iris数据中，这些兰花的sepal.length的分布了
+
+
+
+
 
 
 
