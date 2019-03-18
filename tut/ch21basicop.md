@@ -33,7 +33,7 @@ str(name)
 
 
 
-
+------
 
 
 
@@ -106,6 +106,8 @@ summary(iris$Sepal.Length)
 
 
 
+
+------
 
 
 
