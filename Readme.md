@@ -49,3 +49,5 @@ Lance Zhang, 2019/03/12
 
 
 - [Chapter 1: 数据结构](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch1structure.md)
+
+- [Chapter 2: 基本操作](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch2structure.md)
