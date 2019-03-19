@@ -46,19 +46,42 @@ Lance Zhang, 2019/03/12
 
 如果小伙伴们能得到这个答案，也就证明R语言的安装成功了 :)
 
-现在就让我们从R语言中的数据格式开始，踏上R语言的学习征程吧。
 
 
+## Chapter 0: Before we start
+
+首先在任何计算机语言中，最基础的都是赋值。比如玛丽苏的主角们，可能有个很长的名字，像"七彩琉璃五色小马长发飘飘玛丽苏"，"英俊潇洒风流倜傥点秋香的唐伯虎"，对于这样的内容，我们没法每次都一一输入，所以需要把他们存到一个空间中方便以后调用，这个操作就叫做赋值。
+
+我们来在console中输入这个code，并按下enter/ return (Win/ MacOS)。
+
+```R
+marysue <- "qicailiuliwusexiaomachangfapiaopiaomalisu"
+```
+
+这个code完成的实际上就是赋值的操作。其中marysue是变量名，<-是赋值符号，"qicailiuliwusexiaomachangfapiaopiaomalisu"是存进去的内容。当我们以后再试图打marysue的时候(在console中打入name，并按enter/ return)，就会出现玛丽苏的身影，比如：
+
+```R
+marysue
+[1] "qicailiuliwusexiaomachangfapiaopiaomalisu"
+```
+
+这就是一个成功的赋值操作，看似简单但是这里我们需要注意三点。
+
+1. 注意赋值符号的方向，R语言的优美从这里开始，<-，代表了把右边的东西存到左边。
+2. <- 符号的前后注意加空格，使得R语言coding变得更加美观
+3. " "中包裹着的，我们初学者可以把它认同为是文字类型，这个在R语言中，是一条"宇宙真理"
+
+
+
+能掌握这些，就说明你的实力足以应对R语言。现在就让我们从R语言中的数据格式开始，踏上R语言的学习征程吧。
 
 - [Chapter 1: 数据结构](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch1structure.md)
-
 - [Chapter 2: 基本操作](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch2structure.md)
+- Chapter 3: 数据分析 - 画图
 
 
 
-
-
-
+(目前进度一天更新一小节，希望可以不🕊)
 
 ------
 
