@@ -58,7 +58,17 @@ Lance Zhang, 2019/03/12
 marysue <- "qicailiuliwusexiaomachangfapiaopiaomalisu"
 ```
 
-这个code完成的实际上就是赋值的操作。其中marysue是变量名，<-是赋值符号，"qicailiuliwusexiaomachangfapiaopiaomalisu"是存进去的内容。当我们以后再试图打marysue的时候(在console中打入name，并按enter/ return)，就会出现玛丽苏的身影，比如：
+这个code完成的实际上就是赋值的操作。
+
+其中：
+
+- marysue是变量名
+- <-是赋值符号
+- "qicailiuliwusexiaomachangfapiaopiaomalisu"是存进去的内容
+
+当我们以后再试图打marysue的时候，就会出现玛丽苏的身影，比如：
+
+(在console中打入marysue，并按enter/ return)
 
 ```R
 marysue
@@ -67,13 +77,13 @@ marysue
 
 这就是一个成功的赋值操作，看似简单但是这里我们需要注意三点。
 
-1. 注意赋值符号的方向，R语言的优美从这里开始，<-，代表了把右边的东西存到左边。
+1. 注意赋值符号的方向，**R语言的优美从这里开始，<-，代表了把右边的东西存到左边。**
 2. <- 符号的前后注意加空格，使得R语言coding变得更加美观
-3. " "中包裹着的，我们初学者可以把它认同为是文字类型，这个在R语言中，是一条"宇宙真理"
+3. " "中包裹着的，我们初学者可以把它认同为是文字类型的数据，这个在R语言中，是一条"宇宙真理"
 
 
 
-能掌握这些，就说明你的实力足以应对R语言。现在就让我们从R语言中的数据格式开始，踏上R语言的学习征程吧。
+**能掌握这些，就说明你的实力足以应对R语言。**现在就让我们从R语言中的数据格式开始，踏上R语言的学习征程吧。
 
 - [Chapter 1: 数据结构](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch1structure.md)
 - [Chapter 2: 基本操作](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch2structure.md)
