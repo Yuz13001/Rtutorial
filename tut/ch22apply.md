@@ -14,7 +14,7 @@
 
 在开始之前，让我们来回顾一下我们之前用的一个数据叫mtcars
 
-```R
+```
 > mtcars
                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
 Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
@@ -78,7 +78,7 @@ sapply(mtcars, IQR)
 
 其实summary不仅对vector有用，对于data frame也有奇效：
 
-```R
+```
 > summary(iris)
   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width          Species  
  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100   setosa    :50  
