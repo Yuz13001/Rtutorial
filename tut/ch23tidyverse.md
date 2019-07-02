@@ -71,8 +71,13 @@ he downloaded binary packages are in
 
 
 
-首先呢，在开始用tidyverse之前，我们需要学习使用一个小工具叫script。在刚刚的几节内容中，实际上我们做的都是在console中，输入command获取output的格式，也就是一行code一个结果。有些时候，一行code不够用，需要两行或者以上才行，这个时候console的弱点就展现出来了。另外，console的结果和code都不会被保存下来。换而言之，你今天开开心心打的code，电脑一关机就都没了。Script就是应对这个情况最好的解决办法，script相当于一个储存着你code的文档，可以随时保存，方便调用。在R studio里，我们随时都可以新建一个script，在左上角：
-
-
+首先呢，在开始用tidyverse之前，我们需要学习使用一个小工具叫script。在刚刚的几节内容中，实际上我们做的都是在console中，输入command获取output的格式，也就是一行code一个结果。有些时候，一行code不够用，需要两行或者以上才行，这个时候console的弱点就展现出来了。另外，console的结果和code都不会被保存下来。换而言之，你今天开开心心打的code，电脑一关机就都没了。Script就是应对这个情况最好的解决办法，script相当于一个储存着你code的文档，可以随时保存，方便调用。在R studio里，我们随时都可以新建一个script，在左上角有一个白纸和绿色加号的按钮：
 
 ![image](https://github.com/Yuz13001/Rtutorial/blob/master/Pics/script1.png)
+
+单击之后，我们就可以看到一个下拉菜单：
+
+![image](https://github.com/Yuz13001/Rtutorial/blob/master/Pics/script2.png)
+
+在下拉菜单中选择R script就可以了。
+
