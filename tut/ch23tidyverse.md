@@ -79,5 +79,9 @@ he downloaded binary packages are in
 
 ![image](https://github.com/Yuz13001/Rtutorial/blob/master/Pics/script2.png)
 
-在下拉菜单中选择R script就可以了。
+在下拉菜单中选择R script就可以了。在操作完成后，Rstudio的布局会稍有变化：
+
+![image](https://github.com/Yuz13001/Rtutorial/blob/master/Pics/script3.png)
+
+从原有的三分天下，变成了田字格。左上角的新方块，就是script的页面了，在script里我们打的code，就可以被保存下来，方便以后使用了。在script中输入的code，按control + enter就可以运行了！
 
