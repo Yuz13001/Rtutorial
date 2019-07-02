@@ -1,6 +1,6 @@
 
 
-## Chapter 2.3: Tidyverse
+## Chapter 2.3: R Package & Tidyverse
 
 在上一章节中，我们讲解了对于vector的常见的批量式操作，比如求平均数，中位数，或者数个数等等。在这一章节中，我们将讲解更高级，也是实际操作中，非常常用的一套组合拳，tidyverse。他能够解决95%以上对于数据计算的需求
 
@@ -47,4 +47,29 @@ he downloaded binary packages are in
 	/你电脑上什么奇怪的位置
 ```
 
-这就证明安装成功了。
+这就证明安装成功了。这也是安装绝大多数R语言补丁包的办法。
+
+安装完Package之后，我们需要调用它，方法非常简单，只需要写library(package名字)就好
+
+```
+> library(tidyverse)
+── Attaching packages ───────────────────────── tidyverse 1.2.1 ──
+✔ ggplot2 3.2.0     ✔ purrr   0.3.2
+✔ tibble  2.1.3     ✔ dplyr   0.8.1
+✔ tidyr   0.8.3     ✔ stringr 1.4.0
+✔ readr   1.3.1     ✔ forcats 0.4.0
+── Conflicts ────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+```
+
+如果安装成功的话，应该会看到上述一些output，这些output对初学者来说不太重要，我们先暂时略过。直入主题，“论如何像兰斯一样优雅的使用tidyverse"
+
+
+
+------
+
+
+
+首先呢，在开始用tidyverse之前，我们需要学习使用一个小工具叫script。在刚刚的几节内容中，实际上我们做的都是在console中，输入command获取output的格式，也就是一行code一个结果。有些时候，一行code不够用，需要两行或者以上才行，这个时候console的弱点就展现出来了。另外，console的结果和code都不会被保存下来。换而言之，你今天开开心心打的code，电脑一关机就都没了。Script就是应对这个情况最好的解决办法，script相当于一个储存着你code的文档，可以随时保存，方便调用。在R studio里，我们随时都可以新建一个script，在左上角：
+
