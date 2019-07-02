@@ -89,3 +89,4 @@ sapply(mtcars, IQR)
  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500                 
 ```
 
+如果想对一个dataframe的数据有基本的了解，那么很多时候summary一下就够啦！
