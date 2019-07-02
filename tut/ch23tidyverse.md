@@ -89,3 +89,37 @@ he downloaded binary packages are in
 
 2. 在script中输入的code，按control + enter就可以运行了！
 
+
+
+------
+
+
+
+ok现在万事俱备只欠东风了，让我们来在script里庄重的打上刚刚我们学到的一行code
+
+```R
+#Load library
+library(tidyverse)
+```
+
+这行code的目的刚刚讲过，是为了导入补丁包。R每次关闭之后，补丁包也会随之关闭，所以在script的一开始，load library是一个非常好的习惯。
+
+接下来我们来学习一下tidyverse中最重要的两个function，summarize和group_by。
+
+先来看Summarize，让我们在script里输入
+
+```R
+iris %>%
+  summarize(mean(Sepal.Width))
+```
+
+让我们来看一下这个美丽的code：
+
+1. iris是数据的名字，打在最前边
+2. %>% 这个符号叫pipe，意思是把数据传递到后续的code中
+3. summarize是一个function，自己没有实际意义，它做什么，取决于summarize括号中放什么function
+4. mean(Sepal.Width) 用来计算sepal.width的平均数
+
+聪明的你一定发现了，这个code这么复杂实际上就干了一件事儿，叫求iris里sepal.width的平均数。我们之前也讲过，这不就是mean(iris$Sepal.Length)吗？ 
+
+的确如此
