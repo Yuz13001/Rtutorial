@@ -10,5 +10,5 @@ Lance Zhang, 2019/03/18
 
 - [Chapter 2.1: 对于Vector的基础运算](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch21basicop.md)
 - [Chapter 2.2: 批量式计算](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch22apply.md)
-- Chapter 2.3: Tidyverse
+- [Chapter 2.3: Tidyverse](https://github.com/Yuz13001/Rtutorial/blob/master/tut/ch23tidyverse.md)
 
